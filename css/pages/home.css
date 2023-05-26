@@ -3,6 +3,8 @@
 @import '../base/layout.css';
 
 /*vendor*/
+@import '../vendors/font-awesome.min.css';
+@import '../vendors/roboto.css';
 
 /*components*/
 
