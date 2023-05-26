@@ -1,0 +1,18 @@
+.greenline {
+    display: inline-block;
+    width: 1000px;
+    text-align: left;
+
+}
+
+.column-right {
+    display: flex;
+    width: 1000px;
+    text-align: right ;
+}
+
+.main {
+    flex-direction: row;
+    position: fixed;
+    display: flex;
+}
