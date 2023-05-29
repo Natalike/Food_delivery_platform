@@ -1,17 +1,35 @@
+.maincontainer {
+    height: 100vh;
+} 
+
 .greenline {
+    flex-direction: column;
+    margin-left: 5%;
+    color: #fafafa;
     display: inline-block;
-    width: 1000px;
+    width: 250px;
     text-align: left;
 
 }
 
-.column-right {
+.column {;
     display: flex;
-    width: 1000px;
+    width: 500px;
     text-align: right ;
+} 
+
+.column-left {
+    display: flex;
+    display::contents;
+}
+
+.right {
+    width: 250px;
+    display: inline-block;
 }
 
 .main {
+    width: 100%;
     flex-direction: row;
     position: fixed;
     display: flex;
